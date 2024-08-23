@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocation Training</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/231c331812.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav>
+    <ul>
+        <li class="brand"><img src="logo3.jpg" alt="Gryffin Coders"></li>
+        <li>Home</li>
+        <li>About us</li>
+        <li>Contact us</li>
+    </ul>
+</nav>
+<div class="container">
+    <h2>Manager Form</h2>
+    <div class="form-container">
+        <form>
+            <div class="input-group">
+                <label for="first-name">
+                    <i class="fa-solid fa-user lock"></i>
+                    <input type="text" id="first-name" placeholder="First Name" class="name">
+                </label>
+                <label for="last-name">
+                    <i class="fa-solid fa-user lock"></i>
+                    <input type="text" id="last-name" placeholder="Last Name" class="name">
+                </label>
+            </div>
+
+            <div class="input-group">
+                <label for="email">
+                    <i class="fa-solid fa-envelope lock"></i>
+                    <input type="text" id="email" placeholder="Email" class="name">
+                </label>
+                <label for="mobile">
+                    <i class="fa-solid fa-address-book lock"></i>
+                    <input type="text" id="mobile" placeholder="Mobile No" class="name">
+                </label>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-venus-mars lock"></i>
+                <label><input type="radio" class="radio-button" name="gender" value="male"> Male</label>
+                <label><input type="radio" class="radio-button" name="gender" value="female"> Female</label>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-briefcase lock"></i>
+                <select class="name">
+                    <option>Select a Role</option>
+                    <option>HR</option>
+                    <option>Business Development</option>
+                    <option>Trainer</option>
+                    <option>Co-ordinator</option>
+                    <option>Receptionist</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-location-dot lock"></i>
+                <select class="name">
+                    <option>Select a Branch</option>
+                    <option>Vijaynagar</option>
+                    <option>JP Nagar</option>
+                    <option>Koramangala</option>
+                    <option>Hebbal</option>
+                    <option>Basavanagudi</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <input type="submit" class="button" value="Register">
+                <input type="submit" class="button" value="Cancel">
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

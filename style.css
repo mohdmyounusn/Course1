@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: "Ubuntu Sans Mono", monospace;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 63px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid grey;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 1);
+}
+
+.container h2 {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-weight: bolder;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.input-group label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-group i {
+    font-size: 18px;
+    color: black;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+.name {
+    flex: 1;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.button {
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
